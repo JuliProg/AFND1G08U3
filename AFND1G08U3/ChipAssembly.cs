@@ -19,10 +19,16 @@ namespace AFND1G08U3
     {
         [Export("Chip")]
         ChipPrototype myChip = new ChipPrototype();
-        
+
 
 
         #region Chip parameters
+
+        //--------------------Vendor Specific Pin configuration---------------------------
+
+        //  VSP1(38pin) - NC    
+        //  VSP2(35pin) - NC
+        //  VSP3(20pin) - NC
 
         ChipAssembly()
         {
